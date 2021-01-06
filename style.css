@@ -9,7 +9,14 @@ body{
     width: 300px;
 }
 
-.border-box{
+.paper{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(215, 211, 211);
+    padding: 5px;
+}
+
+.sticker{
     height: 208px;
     width: 100%;
     background-color: cornflowerblue;
