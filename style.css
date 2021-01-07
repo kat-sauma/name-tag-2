@@ -16,7 +16,7 @@ body{
     padding: 5px;
 }
 
-.sticker{
+#sticker{
     height: 208px;
     width: 100%;
     background-color: cornflowerblue;
@@ -26,7 +26,7 @@ body{
     text-align: center;
 }
 
-.greeting{
+#greeting{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:cornsilk;
     padding-top: 10px;
@@ -43,13 +43,30 @@ h2{
     margin: 0%;
 }
 
-.name{
+#name{
     width: 100%;
-    height: 75px;
+    height: 40px;
     background-color: cornsilk;
-    margin-top: 20px;
-    padding-top: 5px;
-    padding-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 20px;
     font-family: 'Courier New', Courier, monospace, monospace;
     font-size: 25px;
+}
+
+#pronouns{
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    background-color: cornsilk;
+    font-family: 'Courier New', Courier, monospace, monospace;
+    font-size: 15px;
+    font-weight: 500;
+}
+.input-area, .change-font, .send{
+    padding-top: 20px;
+    padding-left: 25%;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+
 }
